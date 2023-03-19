@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+.body
+{
+font-family: sans-serif;
+
+}
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}
+/*.img-fluid{
+    max-width: 20%;
+    height:15%;
+}*/
+.navbar-brand img{
+    height:60px;
+    padding-left:20px;
+}
+.navbar-nav li{
+    padding:0 10px;
+    color:#fff;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float:right;
+    text-align:left;
+}
+.fa-bars{
+    color:#fff !important;
+    font-size:30px !important;
+}
+.navbar-toggler{
+    outline:none !important;
+}
+
+/*-----------------About us section----------------*/
+#Aboutus h1
+{
+    background-image: linear-gradient(to right,orange,yellow,#a517ba,#5f1782);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 400px;
+
+}
+.content .ul{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 200px;
+}
+.bd-example
+{
+    background-image: rgba(121, 53, 121, 0.667);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+ 
+}
+.navbar-right{
+    padding-left: 400px;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #5f1782 0%,
+    #a517ba 29%,
+    yellow 67%,
+    orange 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.para p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 400;
+}
