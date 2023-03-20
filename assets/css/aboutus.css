@@ -104,3 +104,19 @@ font-family: sans-serif;
     margin-right: 100px;
     font-weight: 400;
 }
+@media screen and (max-width: 480px) {
+    .animate-charcter{
+        font-size: 62px;
+    }
+    #Aboutus h1{
+        padding-left: 29px;
+        padding-top: 37px;
+    
+    }
+    .bd-example{
+        padding-top: 28px;
+        padding-bottom: 45px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  }

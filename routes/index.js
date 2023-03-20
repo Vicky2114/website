@@ -22,6 +22,7 @@ router.use('/',require('./courses'));
 router.use('/comments', require('./comments'));
 router.use('/posts', require('./posts'));
 router.use('/likes',require('./likes'))
+router.use('/',require('./community'))
 
 // for any further routes, access from here
 // router.use('/routerName', require('./routerfile));

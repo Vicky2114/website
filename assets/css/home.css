@@ -649,3 +649,31 @@ font-weight: 600;
 .carousel-inner img{
     border-radius: 20%;
 }
+@media screen and (max-width: 480px) {
+    
+    .car{
+        margin-top: 30px;
+        height: 300px;
+        width: 95%;
+        padding-left: 0px;
+    }
+    .sample{
+           padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 81px;
+    }
+    .timeline{
+        margin-left: 0px;
+
+    }
+    .text-box{
+       padding: 7px 9px;
+       font-size: 10px;
+       height: 280px;
+       width: 100;
+        
+    }
+    .text-box h2{
+        font-size: 1rem;
+    }
+  }
